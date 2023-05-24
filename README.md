@@ -2,6 +2,20 @@
 
 ### A smart locker management system represents a contemporary and robust approach to storing personal belongings. The system's design aims to offer users convenience, security, and flexibility. This is a PIC microcontroller (PIC16F877A) based design.
 
+## Hardware Components:
+
++ PIC Microcontroller (PIC16F877A)
+
++ Keypad
+
++ LCD display
+
++ LEDs (Red and Green)
+
++ Buzzer
+
++ Servo Motors
+
 ## Working of the System:
 
 **Initialization:** The system is initialized by setting up the microcontroller (PIC16F877A), configuring the necessary pins for input/output, initializing the LCD display, and keypad.
