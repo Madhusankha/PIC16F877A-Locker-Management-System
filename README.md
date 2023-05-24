@@ -22,12 +22,12 @@
 
 **Main Menu:** The system starts by displaying a main menu on the LCD screen, allowing the user to select between the "Admin" and "Customer" options.
 
-![3](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/fc75365a-dc95-43cf-ae6d-586d4889fc3f)
+![3](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/075ffdbb-6288-4874-b693-a8802eca5848)
+
 
 **Admin Menu:** If the user selects the "Admin" option, they are prompted to enter a password. If the entered password matches the predefined password, the user gains access to the admin menu.
 
-
-![4](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/0c85a358-07f0-463d-a631-587b34be6e04)
+![4](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/6a80a9ce-a99d-41ac-b158-92dae5619669)
 
 A: Add Locker | B: Remove Locker | C: Display Locker Status | D: Set Locker Status | #: Exit
 
@@ -41,23 +41,24 @@ A: Add Locker | B: Remove Locker | C: Display Locker Status | D: Set Locker Stat
 
 **Customer Menu:** If the user selects the "Customer" option, they are prompted to enter a locker number. Once a valid locker number is entered, the user is prompted to enter a 4-digit access code.
 
-![c1](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/a28badc3-28b3-46fe-9ee9-3631ad951ad3) 
+![c1](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/c74e98ea-f642-4abb-bfbe-1100a232d9fa)
 
 **Validate Access Code:** The system checks if the entered access code matches the stored access code for the locker. If the codes match, the locker is considered unlocked and the user gains access.
 
-![c2](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/f26a7481-159a-4e4d-8b6e-ffae8ae39f6e) ![c3](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/e695b15c-5d2a-4907-a08d-9eef6e16a88a)
+![c2](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/6b7046ca-58d1-4ed4-be32-94293b801ec4) 
+![c3](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/de67b199-3f63-4cd7-9f06-16ce7372e35e)
 
 **Invalid Code:** If the access code is invalid, the system increments the number of attempts for that locker and alerts the user with an "INVALID CODE" message on the LCD screen. If the number of attempts exceeds the maximum allowed attempts (MAX_ATTEMPTS), the system triggers a buzzer and indicates a failed attempt by turning on the red LED.
 
-![c6](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/1ad9c1dc-32e6-43bc-8022-a450622ea467)
+![c6](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/8693a5d2-7fc9-47b3-a364-89ec467f414a)
 
 **Successful Access:** If the access code is valid, the system unlocks the locker by activating the necessary components and displays a "STATUS: UNLOCKED" message on the LCD screen.
 
-![c5](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/e0536f64-85ee-480b-9bc7-ca2b0058f2f0)
+![c5](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/ccf376d8-ac82-4519-bee4-cfbeb4e33b20)
 
 **Lock the Locker:** After accessing the locker, the user has the option to manually lock it by pressing the 'D' key. Upon locking the locker, the system updates the status to "LOCKED" and displays a "LOCKED" message on the LCD screen.
 
-![c4](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/112b1b40-af1d-40dc-b951-0a8aeb53eb57)
+![c4](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/002e0054-9e7a-47d9-ba37-1e65f493fca2)
 
 **Quit:** The user can quit the customer menu at any time by pressing the '#' key.
 
@@ -68,7 +69,7 @@ A: Add Locker | B: Remove Locker | C: Display Locker Status | D: Set Locker Stat
 
 ## Circuit Diagram
 
-![02](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/0d79e291-726e-4cfe-be96-fee638072e0a)
+![02](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/6077ea0b-0f60-460f-a7a5-76982fa58fc4)
 
 ['/' -> 'A'],
 ['X' -> 'B'], 
