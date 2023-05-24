@@ -27,4 +27,29 @@ A: Add Locker | B: Remove Locker | C: Display Locker Status | D: Set Locker Stat
 
 **Customer Menu:** If the user selects the "Customer" option, they are prompted to enter a locker number. Once a valid locker number is entered, the user is prompted to enter a 4-digit access code.
 
+![c1](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/a28badc3-28b3-46fe-9ee9-3631ad951ad3) 
+
+**Validate Access Code:** The system checks if the entered access code matches the stored access code for the locker. If the codes match, the locker is considered unlocked and the user gains access.
+
+![c2](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/f26a7481-159a-4e4d-8b6e-ffae8ae39f6e) ![c3](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/e695b15c-5d2a-4907-a08d-9eef6e16a88a)
+
+**Invalid Code:** If the access code is invalid, the system increments the number of attempts for that locker and alerts the user with an "INVALID CODE" message on the LCD screen. If the number of attempts exceeds the maximum allowed attempts (MAX_ATTEMPTS), the system triggers a buzzer and indicates a failed attempt by turning on the red LED.
+
+![c6](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/1ad9c1dc-32e6-43bc-8022-a450622ea467)
+
+**Successful Access:** If the access code is valid, the system unlocks the locker by activating the necessary components and displays a "STATUS: UNLOCKED" message on the LCD screen.
+
+![c5](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/e0536f64-85ee-480b-9bc7-ca2b0058f2f0)
+
+**Lock the Locker:** After accessing the locker, the user has the option to manually lock it by pressing the 'D' key. Upon locking the locker, the system updates the status to "LOCKED" and displays a "LOCKED" message on the LCD screen.
+
+![c4](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/112b1b40-af1d-40dc-b951-0a8aeb53eb57)
+
+**Quit:** The user can quit the customer menu at any time by pressing the '#' key.
+
+**Buzzer and LED:** Throughout the process, the system controls the buzzer and LED lights to provide audio and visual feedback to the user. The buzzer is activated for invalid access codes and when the maximum attempts are reached. The green LED indicates successful access, while the red LED indicates a failed attempt.
+
+**Locker Status Update:** The system keeps track of the status, attempts, and timer for each locker, allowing the admin to monitor and manage the lockers effectively.
+
+
 
