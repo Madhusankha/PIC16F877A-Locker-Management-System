@@ -52,4 +52,14 @@ A: Add Locker | B: Remove Locker | C: Display Locker Status | D: Set Locker Stat
 **Locker Status Update:** The system keeps track of the status, attempts, and timer for each locker, allowing the admin to monitor and manage the lockers effectively.
 
 
+## Circuit Diagram
+
+![02](https://github.com/Madhusankha/PIC16F877A-Locker-Management-System/assets/42806288/0d79e291-726e-4cfe-be96-fee638072e0a)
+
+['/' -> 'A'],
+['X' -> 'B'], 
+['-' -> 'C'], 
+['+' -> 'D'], 
+['ON/C' -> '#']
+
 
