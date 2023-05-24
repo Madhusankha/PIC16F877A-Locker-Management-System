@@ -285,7 +285,7 @@ void customer_menu() {
       lcd_gotoxy(1, 1);
       lcd_puts("STATUS:UNLOCKED");
       lcd_gotoxy(2, 1);
-      lcd_puts("TO LOCKED : D");
+      lcd_puts("TO LOCK : D");
       key = getkey();
         if (key == 'D') {
         //buzzer_on();
